@@ -568,9 +568,11 @@ p {
   color: var(--third-color);
   cursor: pointer;
   font-style: normal;
+  text-decoration: none;
 }
 .mail,
 .tel {
+  text-decoration: none;
   display: inline;
   color: var(--color-mail);
   cursor: pointer;
