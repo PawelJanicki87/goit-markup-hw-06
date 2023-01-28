@@ -634,7 +634,10 @@ span {
   transition: var(--footer_social_link_transition);
 }
 /*--------------footer-newsletter--------------*/
-
+.footer_newsletter {
+  display: flex;
+  flex-direction: column;
+}
 .newsletter_email:focus {
   border-color: var(--secondary-color);
 }
@@ -642,7 +645,7 @@ span {
 .newsletter_email {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+
   margin-right: 12px;
   padding: 15px 16px;
   width: 358px;
@@ -660,6 +663,7 @@ span {
 }
 .newsletter_form {
   display: flex;
+  margin-bottom: 20px;
   color: var(--third-color);
   text-transform: uppercase;
   font-weight: 700;
@@ -667,9 +671,13 @@ span {
   line-height: 1.143;
   letter-spacing: 0.03em;
 }
+.newsletter_email_blue {
+  display: flex;
+}
 .newsletter_button {
   display: flex;
   align-items: center;
+
   height: 50px;
   padding: 10px 24px 10px 42px;
   width: 200px;
