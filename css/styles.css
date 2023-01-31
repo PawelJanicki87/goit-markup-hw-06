@@ -645,7 +645,7 @@ span {
 .newsletter_email {
   display: flex;
   align-items: center;
-
+  margin-top: 20px;
   margin-right: 12px;
   padding: 15px 16px;
   width: 358px;
@@ -663,7 +663,7 @@ span {
 }
 .newsletter_form {
   display: flex;
-  margin-bottom: 20px;
+
   color: var(--third-color);
   text-transform: uppercase;
   font-weight: 700;
@@ -677,7 +677,7 @@ span {
 .newsletter_button {
   display: flex;
   align-items: center;
-
+  margin-top: 20px;
   height: 50px;
   padding: 10px 24px 10px 42px;
   width: 200px;
