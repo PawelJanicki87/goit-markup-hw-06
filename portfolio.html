@@ -314,17 +314,19 @@
 
         <div class="footer_newsletter">
           <form class="newsletter_form" name="footer_newsletter" autocomplete="on" formvalidate>
-            <label class="footer_newsletter_email"> Zapisz się do newslettera</label>
+            <label class="footer_newsletter_email">
+              Zapisz się do newslettera
+              <div class="newsletter_email_blue">
+                <input class="newsletter_email" type="email" name="email" placeholder="E-mail" />
+                <button class="newsletter_button" type="submit">
+                  Zapisz się
+                  <svg class="newsletter_button_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </label>
           </form>
-          <div class="newsletter_email_blue">
-            <input class="newsletter_email" type="email" name="email" placeholder="E-mail" />
-            <button class="newsletter_button" type="submit">
-              Zapisz się
-              <svg class="newsletter_button_icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </div>
         </div>
       </div>
     </footer>
